@@ -3,16 +3,16 @@ Contributors: RogierLankhorst, Peter Tak
 Tags: clickjacking, security, Browser Frame Breaking Script,
 Requires at least: 4.0
 License: GPL2
-Tested up to: 4.1
-Stable tag: 1.0.0
+Tested up to: 4.2
+Stable tag: 1.0.1
 
 This simple anticlickjacking script prevents your site from being clickjacked, following the owasp best practice using the Best-for-now Legacy Browser Frame Breaking Script.
 
 == Description ==
 This simple anticlickjacking script prevents your site from being clickjacked, following the owasp best practice using the Best-for-now Legacy Browser Frame Breaking Script.
 
-For more information: go to the [plugin website](http://www.rogierlankhorst.com/anti-clickjack-plugin/)   
-For more information on clickjacking see [owasp website](https://www.owasp.org/index.php/Clickjacking_Defense_Cheat_Sheet#Best-for-now_Legacy_Browser_Frame_Breaking_Script/) 
+For more information: go to the [plugin website](http://www.rogierlankhorst.com/anti-clickjack-plugin/)
+For more information on clickjacking see [owasp website](https://www.owasp.org/index.php/Clickjacking_Defense_Cheat_Sheet#Best-for-now_Legacy_Browser_Frame_Breaking_Script/)
 
 == Installation ==
 To install this plugin:

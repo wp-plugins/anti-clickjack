@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Anti clickjack plugin
  * Plugin URI: http://www.rogierlankhorst.com/anti-clickjack-plugin
- * Description: Plugin to prevent your site from being clickjacked 
- * Version: 1.0.0
+ * Description: Plugin to prevent your site from being clickjacked
+ * Version: 1.0.1
  * Text Domain: rldh-anticlickjack
  * Domain Path: /lang
  * Author: Rogier Lankhorst
@@ -14,7 +14,7 @@
 /*  Copyright 2014  Rogier Lankhorst  (email : rogier@rogierlankhorst.com)
 
     This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License, version 2, as 
+    it under the terms of the GNU General Public License, version 2, as
     published by the Free Software Foundation.
 
     This program is distributed in the hope that it will be useful,
@@ -32,7 +32,7 @@ defined('ABSPATH') or die("you do not have acces to this page!");
 
 class rlac_anticlickjac {
     public $plugin_url;
-    
+
     public function __construct()
     {
         $this->plugin_url = trailingslashit(WP_PLUGIN_URL).trailingslashit(dirname(plugin_basename(__FILE__)));
@@ -46,7 +46,7 @@ class rlac_anticlickjac {
         load_plugin_textdomain('rlac-anticlickjack', FALSE, dirname(plugin_basename(__FILE__)).'/lang/');
     }
 
-    public function enqueue_assets() 
+    public function enqueue_assets()
     {
         wp_enqueue_script( "rlac-anticlickjack", $this->plugin_url."js/script.js","",'1.0.0', true );
     }
@@ -60,4 +60,3 @@ class rlac_anticlickjac {
 
 $rlac_anticlickjac = new rlac_anticlickjac();
 unset($rlac_anticlickjac);
-
